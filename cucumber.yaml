@@ -1,6 +1,5 @@
 ---
     default: -p ambiente -p chrome -p json -p pretty -p publish
-    ci: -p dev_toolbox -p chrome -p json -p pretty
     ambiente: ENV_TYPE=ambiente
     firefox: browser=firefox
     chrome: browser=chrome
