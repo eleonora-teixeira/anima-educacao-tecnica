@@ -1,0 +1,12 @@
+---
+    default: -p ambiente -p chrome -p json -p pretty -p publish
+    ci: -p dev_toolbox -p chrome -p json -p pretty
+    ambiente: ENV_TYPE=ambiente
+    firefox: browser=firefox
+    chrome: browser=chrome
+    headless: browser=headless
+    html: --format html --out=log/report.html
+    json: --format json --out=log/report.json
+    pretty: --format pretty
+    progress: --format progress
+    publish: --publish-quiet
